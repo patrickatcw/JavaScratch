@@ -8,14 +8,16 @@ public class Practice {
         int bonus = 100;
 
 
-        if (score==5000) {
+        if (score < 5000) {
 
             System.out.println("Your score was 5000");
-    //printed b/c int score and if statement agree
+
 
             } else {
 
             System.out.println("Got here");
+            //executed b/c if statement does not equate to int score
+            //comparison
 
             }
 
