@@ -3,7 +3,7 @@ public class Practice {
     public static void main(String[] args) {
 
         boolean gameOver = true;
-        int score = 4000;
+        int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
 
@@ -12,10 +12,10 @@ public class Practice {
 
             System.out.println("Your score was less than " +
                     "5000 but greater than 1000");
-            //executed b/c of int score of 4000
 
             }else if (score < 1000) {
             System.out.println("Your score was less than 1000");
+            //executed b/c int 800
 
             } else {
             System.out.println("Got here");
