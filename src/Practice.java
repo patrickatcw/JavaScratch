@@ -7,22 +7,20 @@ public class Practice {
         int levelCompleted = 5;
         int bonus = 100;
 
+        if (gameOver) {
 
-        if (score < 5000 && score > 1000) {
-
-            System.out.println("Your score was less than " +
-                    "5000 but greater than 1000");
-
-            }else if (score < 1000) {
-            System.out.println("Your score was less than 1000");
-            //executed b/c int 800
-
-            } else {
-            System.out.println("Got here");
-
-
-            }
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("Your final score was " + finalScore);
+            //created a variable finalScore in code block and able to access variables
+            //outside of codeblack
+            //int finalScore is 1300, boolean confirmed
 
         }
+
+        //int savedFinalScore = finalscore;
+        //would result in error b/c outside of codeblock and finalScore already
+        //used in execution
+
     }
+}
 
