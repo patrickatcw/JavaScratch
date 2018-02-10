@@ -3,7 +3,7 @@ public class Practice {
     public static void main(String[] args) {
 
         boolean gameOver = true;
-        int score = 5000;
+        int score = 4000;
         int levelCompleted = 5;
         int bonus = 100;
 
@@ -14,7 +14,7 @@ public class Practice {
 
             }
             System.out.println("This was executed");
-            //both executed b/c score was 5000
+            //no execution b/c int and if statement do not equal
         }
     }
 }
