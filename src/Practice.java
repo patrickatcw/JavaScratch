@@ -10,9 +10,11 @@ public class Practice {
 
         if (score == 5000) {
 
-            System.out.println("Your score was 5000");
+            System.out.println("Your score was 5000");{
+
+            }
             System.out.println("This was executed");
-            //both executed b/c both within code block
+            //both executed b/c score was 5000
         }
     }
 }
